@@ -1,0 +1,27 @@
+#ques1.
+print("HELLO WORLD")
+
+#ques2
+name = input("Enter your name: ")
+print("Hello "+ name)
+
+#ques3
+celsius = float(input('Enter temperature in Celsius: '))
+fahrenheit = (celsius * 1.8) + 32
+print('%0.1f Celsius is equal to %0.1f degree Fahrenheit'%(celsius,fahrenheit))
+
+#ques4
+no_of_inning=float(input("Enter Number of Innings: "))
+no_of_not_out_inning=float(input("Enter Number of not out Innings: "))
+no_of_success_inning=no_of_inning-no_of_not_out_inning
+runs_scored=float(input("Enter Total Runs Scored: "))
+batting_average=runs_scored/no_of_success_inning
+print("Batting Average", batting_average)
+
+#ques5
+no_of_stu_per_group=24
+no_of_total_students=int(input("Enter number of students: "))
+no_of_group=no_of_total_students//no_of_stu_per_group
+no_of_left_out=no_of_total_students-(no_of_group*24)
+print("No of Groups with 24 Students each: ", no_of_group)
+print("No of Left Out Students: ", no_of_left_out)
